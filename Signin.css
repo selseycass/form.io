@@ -1,0 +1,49 @@
+body{
+    background: url("img/bg3.jpg") no-repeat;
+    margin:0px;
+    padding: 0px;
+    background-size: cover;
+}
+#login{
+    position: absolute;
+    width: 280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#l_login{
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0ae124;
+    padding: 10px 0;
+}
+.box{
+    border-bottom: #0ae124;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background: none;
+    border-bottom: #0ae124;
+    float: left;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+}
+.btn{
+    width: 100%;
+    color: white;
+    background: none;
+    border: 2px solid #0ae124;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
